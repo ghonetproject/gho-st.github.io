@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta charset="UTF-8">
+        <title>Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test </title>
+        <link rel="shortcut icon" type="image/png" href="https://static-cdn.jtvnw.net/jtv_user_pictures/chansub-global-emoticon-ddc6e3a8732cb50f-25x28.png">
+        <link rel="stylesheet" media="screen" type="text/css" href="/style.css">
+		<style>
+           @keyframes dong {
+			0% { background-position:0 0px; }
+			100% { background-position:0 77px; }
+			}
+			@-webkit-keyframes dong {
+			0% { background-position:0 0px; }
+			100% { background-position:0 77px; }
+			}
+			body { 
+			background:url('/media/dongbg.png'); animation:dong 5s linear infinite; -webkit-animation:dong 5s linear infinite; 
+			}
+
+			#audioWrapper audio { display:none; }
+			#audioWrapper img {
+				display:inline-block;
+				width: 42px;
+				height:32px;
+				margin: 4px;
+			}
+		</style>
+		<!--[if lt IE 9]><script src="html5shiv.js"></script><![endif]-->
+		<script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script><script src="/ga.js"></script><style type="text/css"></style>
+		<script>ga('/test');</script>
+	</head>
+	<body>
+		<div id="audioWrapper">
+			<audio id="sound" preload="auto" autoplay="" loop="" controls="">
+				<source src="media/test.mp3" type="audio/mpeg">
+				<source src="media/test.ogg" type="audio/ogg">
+			<audio src="/media/raise.wav" autoplay="autoplay" loop="loop"></audio>
+
+			</audio>
+		<img src="http://www.chatslang.com/images/shortcuts/twitch/admins/frankerz.png">
+		</div>
+		<script>
+			document.getElementById("sound").play();
+			
+			var $frankerz = document.createElement("img");
+			$frankerz.src = "http://www.chatslang.com/images/shortcuts/twitch/admins/frankerz.png";
+			document.getElementById("audioWrapper").appendChild($frankerz);
+			
+			setInterval(function() {
+				$frankerz = $frankerz.cloneNode(true);
+				document.getElementById("audioWrapper").appendChild($frankerz);
+			}, 500);
+		</script>
+		
+		
+<div id="menu">
+(~*.*)~ ghosts network ♥
+<a href="/">home</a> &middot; 
+<a href="/kappa">kappa</a> &middot; 
+<a href="/whatsong">whatsong?</a> &middot; 
+<a href="/dontban">dontban</a> &middot; 
+<a href="/nyancat">nyancat</a> &middot; 
+<a href="/test">test</a>
+</div>
+</body></html>
